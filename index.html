@@ -1600,5 +1600,10 @@
             }
         }
     </script>
+<script>
+	if('serviceWorker' in navigator){
+		navigator.servicesWorker.register (/sw.js);
+	}
+</script>
 </body>
 </html>
